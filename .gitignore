@@ -3,3 +3,9 @@
 ###ignore all .js files###
 *.js
 
+### ignore node stuff ###
+node_modules
+build
+npm-debug.log
+.env
+.DS_Store
