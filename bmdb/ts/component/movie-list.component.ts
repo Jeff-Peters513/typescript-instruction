@@ -1,5 +1,7 @@
 import { Movie } from "../model/movie.class";
 
+var readlineSync = require('readline-sync');
+
 export class MovieListComponent {
 
 }
