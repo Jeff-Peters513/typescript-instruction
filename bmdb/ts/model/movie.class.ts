@@ -13,7 +13,7 @@ export class Movie {
         this.director=director;
     }
     about(): void {
-        console.log(`${this.title}, Rated ${this.rating}, Released in ${this.year}, 
+        console.log(`${this.id}, ${this.title}, Rated ${this.rating}, Released in ${this.year}, 
                     Directed by ${this.director}`); 
     }
 
