@@ -21,7 +21,7 @@ movieSvc.add(m1);
 movieSvc.add(m2);
 
 console.log("Welcome to bmdb Typescript!");
-console.log("----------------------------")
+console.log("----------------------------");
 
 let command: string = "";
 while(command != "exit") {
