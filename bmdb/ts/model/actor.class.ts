@@ -14,8 +14,7 @@ export class Actor {
                     this.birthday = birthday;
                  }
     about(): void {
-        console.log(`${this.id}, First and last name :${this.firstName}" "${this.lastName}, 
-            Gender ${this.gender}, Birthday ${this.birthday}`);
+        console.log(`${this.id}, ${this.firstName} ${this.lastName}, Gender: ${this.gender}, Birthday: ${this.birthday}`);
 
     }
 
