@@ -13,7 +13,7 @@ command = readline.question("Wanna Play? (y/n):  ");
 while(command != "n") {
    for (let idx = 1; idx < 10; idx++) {
         console.log("-----------------------");
-        score = getRandomNumberBetween("1", "10")
+        score = getRandomNumberBetween(1, 10);
         console.log("Bowl "+idx+ " scored  "+score);
         tScore += score;
         console.log("-----------------------");
@@ -27,6 +27,6 @@ while(command != "n") {
 console.log("");
 console.log("Bye!");
 
-function getRandomNumberBetween(min,max){
+function getRandomNumberBetween(min:number,max:number){
     return Math.floor(Math.random()*(max-min+1)+min);
 }
