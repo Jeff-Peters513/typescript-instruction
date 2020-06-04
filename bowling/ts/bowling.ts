@@ -12,12 +12,12 @@ let readline = require('readline-sync');
 console.log("");
 console.log("");
 console.log("Welcome to Virtual Competitve Bowling!")
-console.log("                                       (O)           (O)");
-console.log("                                       ||     (O)    ||");
-console.log("  .----.                               ||     ||     ||");
-console.log(" /   O O\\                            /  \\   ||    /  \\ ");
-console.log(" '    O  '                           :    :  /  \\ :    : ");
-console.log(" \\     /                            |    | :    : |    | ");
+console.log("                                     (O)           (O)");
+console.log("                                      ||     (O)   ||");
+console.log("  .----.                              ||     ||    ||");
+console.log(" /   O O\\                            / \\     ||   /  \\ ");
+console.log(" '    O  '                          :   :   /  \\ :    : ");
+console.log(" \\      /                           |   |  :    :|    | ");
 console.log("__`----'_____________________________\\__/__|    |_\\__/____ ");
 console.log("                                            \\__/             ");
 
@@ -50,12 +50,12 @@ while(command != "n") {
     console.log("-----------------------");
     console.log("");
     
-    if (fpins > spins){
+    if (ftScore > stScore){
         console.log(bowler1+ "  Won the Game!!");
-    }else if (fpins < spins) {
+    }else if (ftScore < stScore) {
         console.log(bowler2+ "  Won the Game!!");
     }else{
-        console.log(bowler1+" "+bowler2 +" Tied!!!!");
+        console.log(bowler1+" & "+bowler2 +" Tied!!!!");
     }
     
     //reset/empty scores and arrays    
